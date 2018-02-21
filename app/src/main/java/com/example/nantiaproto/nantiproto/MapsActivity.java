@@ -42,8 +42,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(sodaNantia).title("Soda Nantia"));
         moveToCurrentLocation(sodaNantia);
 
-        //mMap.moveCamera(CameraUpdateFactory.newLatLng(sodaNantia));
-        //mMap.moveCamera(CameraUpdateFactory.zoomIn());
     }
 
     private void moveToCurrentLocation(LatLng currentLocation)
